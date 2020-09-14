@@ -96,8 +96,8 @@ def main() -> bool:
     #print("Village List from File:")
     #print(s)
     print("Convex Hull List from Village List: ")
-    hulls = convex_hull(s)
-    #print(hulls)
+    coords = convex_hull(s)
+    print(coords)
     #print(distance_calculator(hulls[0], hulls[1]))
 
 main()
